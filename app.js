@@ -4,7 +4,8 @@ const port = 3000;
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Olá! Esta é uma aplicação containerizada no ECS!',
+    title: 'Olá!',
+    body: 'Esta é uma aplicação containerizada no ECS!',
     timestamp: new Date()
   });
 });
