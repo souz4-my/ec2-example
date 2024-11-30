@@ -6,6 +6,7 @@ app.get('/', (req, res) => {
   res.json({
     title: 'Olá!',
     body: 'Esta é uma aplicação containerizada no ECS!',
+    footer: 'Deployed by Devopness',
     timestamp: new Date()
   });
 });
